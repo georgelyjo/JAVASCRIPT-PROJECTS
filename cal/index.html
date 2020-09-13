@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css" type="text/css">
+<script src="script.js"></script>
+    <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        
+        /* Firefox */
+        input[type=number] {
+          -moz-appearance: textfield;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Standard</p>
+        </div>
+        <div class="output">
+            <input class="out" type="text" id="screen" max="9">
+            
+        </div>
+        <div class="button-range" >
+            <div class="button-body">
+                <button onclick="calc(1)" class="button-class">1</button>
+                <button onclick="calc(2)" class="button-class">2</button>
+                <button onclick="calc(3)" class="button-class">3</button>
+                <button onclick="calc('/')" class="button-class">/</button>
+            </div>
+            <div class="button-body">
+                <button onclick="calc(4)" class="button-class">4</button>
+                <button onclick="calc(5)" class="button-class">5</button>
+                <button onclick="calc(6)" class="button-class">6</button>
+                <button onclick="calc('*')" class="button-class">*</button>
+            </div>
+            <div class="button-body">
+                <button onclick="calc(7)" class="button-class">7</button>
+                <button onclick="calc(8)" class="button-class">8</button>
+                <button onclick="calc(9)" class="button-class">9</button>
+                <button onclick="calc('-')" class="button-class">-</button>
+            </div>
+            <div class="button-body">
+                <button onclick="calc(0)" class="button-class">0</button>
+                <button onclick="clearscr()" class="button-class">CLR</button>
+                <button onclick="calcequ()" class="button-class">=</button>
+                <button onclick="calc('+')" class="button-class">+</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
