@@ -2,5 +2,5 @@
 
 Beginner friendly calculator project for learning Javascript.
 
-# live preview 
-https://georgelyjo.github.io/JAVASCRIPT-PROJECTS/index.html
+# live Preview 
+Javascript calculator https://georgelyjo.github.io/JAVASCRIPT-PROJECTS/js-calculator/
